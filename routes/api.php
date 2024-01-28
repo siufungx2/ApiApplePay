@@ -19,3 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::post('validate_merchant', '\App\Http\Controllers\ApplePayController@validateMerchant');
+Route::post('update_order', '\App\Http\Controllers\ApplePayController@updateOrder');

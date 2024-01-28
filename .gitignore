@@ -3,6 +3,7 @@
 /public/build
 /public/hot
 /public/storage
+/docker/*
 /storage/*.key
 /vendor
 .env
