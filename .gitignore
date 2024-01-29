@@ -5,6 +5,7 @@
 /public/storage
 /docker/*
 /storage/*.key
+/storage/certificates
 /vendor
 .env
 .env.backup
